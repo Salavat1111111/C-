@@ -16,22 +16,22 @@
 
 // Задача 13: Напишите программу, которая выводит третью цифру заданного числа или сообщает, что третьей цифры нет.
 
-Console.WriteLine(" Введите число: ");
+//Console.WriteLine(" Введите число: ");
 
-int num = Convert.ToInt32(Console.ReadLine());
+//int num = Convert.ToInt32(Console.ReadLine());
 
-string text = Convert.ToString(num);
+//string text = Convert.ToString(num);
 
-int i = 2;
+//int i = 2;
 
-if( text.Length == 2)
-{
-Console.WriteLine(" Третьей цифры нет.");
-}
-else 
-{
-    Console.WriteLine(text[i]);
-}
+//if( text.Length == 2)
+//{
+//Console.WriteLine(" Третьей цифры нет.");
+//}
+//else 
+//{
+   // Console.WriteLine(text[i]);
+//}
 
 
 
