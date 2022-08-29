@@ -23,6 +23,35 @@
  //21. Напишите программу, которая принимает на вход координаты двух точек и находит расстояние между ними в 3D пространстве.
 
 
+//Console.WriteLine(" Введите координаты точки A : ");
+ int [] array = {3, 6, 8};
+
+//Console.WriteLine(" Введите координаты точки B :  ");
+ int [] array1 = {2, 1, -7};
+
+
+
+//int Method1 ( int [] array, int [] array1)
+//{
+    double num1 = Math.Pow((array1[0] - array[0]), 2);
+    double num2 = Math.Pow((array1[1] - array[1]), 2);  
+    double num3 = Math.Pow((array1[2] - array[2]), 2);
+
+    
+   // double result1 = Math.Pow(result, 2);
+    double result = Math.Sqrt(num1 + num2 + num3);
+
+   // return result;
+
+//}
+
+ 
+  Console.WriteLine(result);      
+
+//Method1(array2, array3);
+
+
+
 
 
 
