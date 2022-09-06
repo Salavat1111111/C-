@@ -35,14 +35,16 @@ int num = Convert.ToInt32(Console.ReadLine());
 int Sam ( int A)
 {
     string text = Convert.ToString(A);
-    string tetx1 = string.Empty;
+    string tetx1 = "";
+    int M = 1;
 
      for( int i = 0; i <= text.Length; i++)
      {
         tetx1 = tetx1 + text[i];
+        M = M * int.Parse(tetx1);
      }
       
-      int M = int.Parse(tetx1);
+      
       return M;
 }
  
